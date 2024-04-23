@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Genesys Upskill Survey Form</h1>
+    <div class="container">
+      <div class="form">
+        <form action="" method="get">
+          <label for="name"> Name </label> <br />
+          <input type="text" placeholder="Enter your name" class="text" />
+          <br />
+
+          <label for="email"> Email</label> <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            class="text"
+          />
+          <br />
+
+          <label for="age"> Age</label> <br />
+          <input type="text" placeholder="Enter your age" class="text" /> <br />
+
+          <label for="">Which option best describes you?</label> <br />
+          <select name="status" id="" class="text">
+            <option value="student">Student</option>
+            <option value="Employed">Employed</option>
+            <option value="Unemployed">Unemployed</option>
+          </select>
+          <br />
+
+          <label for="">Will you recommend Genesys Upskill to a friend?</label>
+          <br />
+
+          <input type="radio" name="choice" id="yes" class="radio" />
+          <label for="yes"> Yes</label><br />
+
+          <input type="radio" name="choice" id="no" class="radio" />
+          <label for="yes"> No</label> <br />
+
+          <input type="radio" name="choice" id="maybe" class="radio" />
+          <label for="yes"> Maybe</label> <br />
+
+          <div class="check">
+            <label for=""
+              >Languages and Frameworks know
+              <small>(check all that apply)</small></label
+            ><br />
+            <input type="checkbox" name="" id="c" />
+            <label for="C">C</label> <br />
+
+            <input type="checkbox" name="" id="c++" />
+            <label for="C++">C++</label> <br />
+
+            <input type="checkbox" name="" id="c#" />
+            <label for="C#">C#</label> <br />
+
+            <input type="checkbox" name="" id="java" />
+            <label for="java">Java</label> <br />
+
+            <input type="checkbox" name="" id="python" />
+            <label for="python">Python</label> <br />
+
+            <input type="checkbox" name="" id="javascript" />
+            <label for="javascript">Javascript</label> <br />
+
+            <input type="checkbox" name="" id="react" />
+            <label for="react">React</label> <br />
+
+            <input type="checkbox" name="" id="angular" />
+            <label for="angular">Angular</label> <br />
+
+            <input type="checkbox" name="" id="django" />
+            <label for="django">Django</label> <br />
+
+            <input type="checkbox" name="" id="spring" />
+            <label for="spring">Spring</label> <br />
+          </div>
+
+          <label>Any Comments or Suggestions</label> <br />
+          <textarea name="comments" id="" cols="30" rows="5"></textarea> <br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
